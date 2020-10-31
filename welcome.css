@@ -1,0 +1,26 @@
+body {
+  background-color:#ce3635;
+  text-align: center;
+  color:#ffffff;
+  padding-top:10em;
+  font-family: 'Merriweather', serif;
+}
+
+* { color:#fff; text-decoration: none;}
+
+
+.btn {
+  margin-top: 50px;
+}
+
+
+.btn a {
+  border: 1px solid white;
+  padding: 15px 25px;
+  border-radius: 25px;
+  transition: all 0.3s;
+}
+
+.btn a:hover {
+  box-shadow: 8px 11px 18px -5px rgba(0,0,0,0.78);
+}
