@@ -17,7 +17,7 @@ $.fn.shuffleChildren = function () {
 $(".parent1").shuffleChildren();
 $(".parent2").shuffleChildren();
 
-$(document).ready(function() {
+$(window).load(function() {
   var counter = 6;
   var attempt = document.getElementById("count");
   attempt.innerHTML = "You have <span>" + counter + "</span> lives";
