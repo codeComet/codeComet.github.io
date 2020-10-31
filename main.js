@@ -17,7 +17,7 @@ $.fn.shuffleChildren = function () {
 $(".parent1").shuffleChildren();
 $(".parent2").shuffleChildren();
 
-$(window).load(function() {
+$(window).on('load', function() {
   var counter = 6;
   var attempt = document.getElementById("count");
   attempt.innerHTML = "You have <span>" + counter + "</span> lives";
@@ -108,7 +108,6 @@ $(window).load(function() {
       }
     })
   }
-  
   setTimeout(game, 11000);
 })
 
